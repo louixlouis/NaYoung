@@ -32,5 +32,10 @@ sqlite3
 
 Postresql
 
+project
+- web page (app)
+- 게시판(게시물 리스트) * 100
+- 게시물 작성
+- 회원가입
 
 '''
