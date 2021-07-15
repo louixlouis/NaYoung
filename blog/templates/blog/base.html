@@ -2,7 +2,11 @@
 {% load static %}
 <html>  
     <head>
-        <title>LOUIS BLOG</title>
+        <title>
+          {% block head_title %}
+            LOUIS BlOG
+          {% endblock %}
+        </title>
         <link rel="stylesheet" href="{% static 'blog/style.css' %}"  media="screen">
         <link href="{% static 'blog/bootstrap.min.css' %}" rel="stylesheet" media="screen">
         <link href="{% static 'blog/styles.css' %}" rel="stylesheet" media="screen"/>
